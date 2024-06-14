@@ -1,0 +1,40 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modalActions button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .modalOverlay input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 6px 6px 35px 10px #1028511C;
+
+  }

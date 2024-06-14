@@ -1,0 +1,27 @@
+
+.mySwiper1 {
+    column-gap: 50px;
+    margin-top: 180px;
+    margin-left: 20px;
+    padding:50px;
+    width: 100% auto;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .mySwiper1.swiper-pagination-bullet {
+    position: relative;
+    bottom: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #2AA8FF;
+    opacity: 1;
+    border: 2px solid #2AA8FF;
+    border-radius: 50%;
+  }
+  
+  .mySwiper1.swiper-pagination-bullet-active {
+    background-color: transparent;
+    border: 2px solid #2AA8FF;
+  }
+  

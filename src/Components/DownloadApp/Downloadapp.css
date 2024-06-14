@@ -1,0 +1,96 @@
+.appContainer{
+    width: auto 1300px;
+    height: 542px;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.imageContainer {
+    display: flex;
+   
+  }
+  .imageWrapper1 {
+    position: relative;
+    width: fit-content;
+    top: 220px;
+    left: 185px;
+  }
+  .imageWrapper2 {
+    position: relative;
+    width: fit-content;
+    bottom: 80px;
+  }
+  .mobileFrame {
+    width: 285px;
+    height: 503px;
+    position: absolute;
+    top:-20px
+  }
+  
+  .mobilePage {
+    display: block;
+    width: 280px;
+  }
+  .downloadSection{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+  }
+  .downloadSection h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+  }
+  .downloadSection p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #414146;
+  }
+  .phoneInput{
+    width: 391px;
+    height: 49px;
+    padding: 1px 0px 1px 1px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    border: 1px solid #F0F0F0
+  }
+  .phoneInput input{
+    border: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #B4B4BE;
+
+  }
+  .phoneInput button{
+    width: 121px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2AA8FF;
+    color: #FFFFFF;
+    position: relative;
+    left: 140px;
+    cursor: pointer;
+  }
+  .buttonWrappers{
+    display: flex;
+    column-gap: 30px;
+    cursor: pointer;
+  }
+  .buttonWrappers img{
+    width: 224px;
+    height: 69px;
+  }

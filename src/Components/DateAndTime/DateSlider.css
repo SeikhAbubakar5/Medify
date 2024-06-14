@@ -1,0 +1,39 @@
+.dateSlider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% auto;
+    padding: 30px;
+  }
+  .dateSlider button{
+    border: none;
+    background: none;
+  }
+  .dateDisplay {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .dateDisplay p{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align: center;
+    color: #01A400;
+  }
+  .dateItem {
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color:transparent !important;
+    font-weight: 800;
+  }
+  
+  

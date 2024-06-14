@@ -1,0 +1,34 @@
+.timeSelector {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .timeSlotSection {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .timeSlotButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .timeSlotButtons button {
+    background-color: #FFFFFF;
+    border: 1px solid #2AA7FF;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 84px;
+    height: 31.59px;
+    border-radius: 3px;
+    color: #2AA7FF;
+  }
+  
+  .timeSlotButtons button:hover {
+    background-color: #e0e0e0;
+  }
+  

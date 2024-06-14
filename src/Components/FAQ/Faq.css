@@ -1,0 +1,98 @@
+.faqContainer{
+    width: 1140px;
+    height: 508.84px;
+    left: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.faqText ,p, h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.faqText p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #2AA7FF;
+}
+.faqText h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74;
+}
+.FaqIcon{
+    position: relative;
+    top: 350px;
+    left: -50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 241.93px;
+    height: 104.59px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 35px -5px #00000012;
+}
+.FaqIcon h4{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+    color: #1B3C74;
+    margin: 0;
+    padding: 0;
+}
+.FaqIcon p{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #77829D;
+}
+.FaqDoctorImg img{
+    width: 500px;
+    height: 479.84px;
+    border-radius: 8px;
+}
+.heartIcon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 390px;
+    bottom: 380px;
+}
+.FaqAccordion{
+    width: 384px;
+    height: 399.84px;
+    display: flex;
+    flex-direction: column;
+
+}
+.AccordionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: relative;
+    top: 30px;
+}
+.AccordionHeader h4{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #1B3C74;
+}
+.AccordionContent p{
+    color: black;
+}

@@ -1,0 +1,91 @@
+.parentClasses{
+    width:1300px auto;
+    height: 790px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+
+}
+.parentClass3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.subClass1{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.subClass2{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.Class1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 242.5px;
+    height: 304px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 45px -5px #00000012;
+
+}
+.Class1 img{
+    position: relative;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.Class1 h4{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #1B3C74;
+}
+.Class1 p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #77829D;    
+}
+.textItem2 h5{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #2AA7FF;
+}
+.textItem2 h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: #1B3C74;
+}
+.textItem2 p{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40.8px;
+    text-align: left;
+    color: #77829D;
+}
